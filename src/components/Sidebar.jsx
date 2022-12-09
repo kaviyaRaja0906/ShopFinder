@@ -1,5 +1,5 @@
 import React ,{useState,useEffect} from "react";
-import { Router,Route,Routes,useNavigate, Link} from 'react-router-dom';
+import { Router,Route,Routes,useNavigate, Link, useLocation} from 'react-router-dom';
 import styled from "styled-components";
 import SidebarItems from "./SidebarItems";
 import "./Sidebar.css";
@@ -7,6 +7,7 @@ import logo from "../assets/logo.png";
 
 function Sidebar(props,{defaultActive},){
 
+     const location = uselocation();
     const lastActiveIndexString = localStorage.getItem("lastActiveIndex");
     const lastActiveIndex = Number(lastActiveIndexString);
     const [activeIndex, setActiveIndex] = useState(lastActiveIndex || defaultActive);
