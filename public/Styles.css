@@ -1,0 +1,84 @@
+.welcome-img{
+    width: 500px;
+    height: 500px;
+    margin-left: 25%;
+}
+.home{
+    font-family: 'Arima',cursive;
+}
+.wel-text{
+    margin-left: 31%;
+}
+.Go-btn{
+    margin-left: 10%;
+    margin-top: 3%;
+    color: #fff;
+    background-color: #540375;
+    border: 1px solid #540375;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+}
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+  .Add-shop{
+    width: 600px;
+    font-family: 'Arima',cursive;
+    font-size: 1rem;
+  }
+  label{
+    padding-top: 10px;
+  }
+  .input{
+    width: 400px;
+    border: 1px solid #b2b2b2;
+    border-radius: 20px;
+  }
+  input:focus{
+    border: 1px solid #540375;
+  }
+  .oDate{
+    float: left;
+  }
+  .cDate{
+    float: right;
+    margin-right: 140px;
+  }
+  .date-picker{
+    width: 120px;
+    border: 1px solid #b2b2b2;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .select-date{
+    width: 400px;
+  }
+.shop-btn{
+  width: 400px;
+  margin-top: 50px;
+  color: #fff;
+  background-color: #540375;
+  border: 1px solid #540375;
+  border-radius: 20px;
+  height: 40px;
+}
+.shop-img{
+  width: 500px;
+  height: 500px;
+  float: left;
+}
+.Add-shop{
+  float: right;
+}
+.shop-form{
+  width: 1200px;
+}
+.help{
+  color: red;
+}

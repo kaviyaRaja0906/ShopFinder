@@ -1,0 +1,108 @@
+.Add-shop{
+    padding-left: 30px;
+    font-family: 'Arima', cursive;;
+
+}
+.view-shop{
+    padding-left: 30px;
+    font-family: 'Arima', cursive;
+    width: 900px;
+}
+th{
+    width: 250px;
+    text-align: center;
+}
+thead{
+    background-color: #540375;
+    color: #fff;
+    height: 40px;
+}
+td{
+    text-align: center;
+    padding: 3px;
+    height: 40px;
+    width: 50px;
+}
+.edit-btn{
+    background-color: #CE7777;
+    color: #fff;
+    border: 1px solid #CE7777;
+    border-radius: 10px;
+    width: 60px;
+}
+.delete-btn{
+    background-color: #E0144C;
+    color: #fff;
+    border: 1px solid #E0144C;
+    border-radius: 10px;
+    width: 60px;
+}
+.search-div{
+    width: 900px;
+    display: flex;
+}
+.head{
+    margin-left: 30px;
+}
+.Search{
+    margin-bottom: 5px;
+    margin-left: 50%;
+}
+.search-btn{
+    background-color: #540375;
+    color: #fff;
+    border: 1px solid #540375;
+}
+.search-input{
+    border: 2px solid #000;
+}
+.filter{
+    padding-left: 50px;
+    font-family: 'Arima', cursive;
+    width: 900px;
+}  
+.cancel-btn{
+    background-color:darksalmon;
+    color:#000;
+    border: 1px solid darksalmon;
+    margin-left: 0%;
+}
+.contact{
+    text-align: center;
+    font-family: 'Arima', cursive;
+    width: 700px;
+    margin-top: 10%;
+}
+.Address{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.Address h4{
+    color: #540375;
+}
+.line-2{
+    margin-left: 30px;
+}
+.contact-img{
+    width: 550px;
+    height: 500px;
+    margin-top: 20%;
+}
+.contact-page{
+    display:flex;
+}
+.heading{
+    text-align: center;
+    font-family: 'Arima',cursive;
+}
+.About{
+    margin-top: 20px;
+    font-family: 'Arima',cursive;
+    width: 1200px;
+    text-align: center;
+}
+.abt-img{
+    width: 700px;
+    height: 400px;
+}

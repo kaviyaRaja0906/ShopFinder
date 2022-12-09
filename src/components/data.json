@@ -1,0 +1,18 @@
+[ 
+    {
+     "id":1,
+    "name":"Dot berrys",
+    "area":"Mumbai Suburban",
+    "category":"Baker",
+    "startDate":"09/12/2022",
+    "endDate":"07/01/2022"
+    },
+    {
+    "id":2,
+    "name":"Magista",
+    "area":"Nagpur",
+    "category":"Chemist",
+    "startDate":"19/12/2022",
+    "endDate":"27/01/2022"
+    }
+]
