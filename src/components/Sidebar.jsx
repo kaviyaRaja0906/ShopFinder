@@ -25,6 +25,7 @@ function Sidebar(props,{defaultActive},){
     }
 
     useEffect(()=> {
+         // eslint-disable-next-line no-restricted-globals
         const activeItem = SidebarItems.findIndex(item=> getPath(item.route) === getPath(location.pathname))
         changeActiveIndex(activeItem);
     }, [location])
