@@ -7,7 +7,7 @@ import logo from "../assets/logo.png";
 
 function Sidebar(props,{defaultActive},){
 
-     const location = uselocation();
+     const location = this.props.location;
     const lastActiveIndexString = localStorage.getItem("lastActiveIndex");
     const lastActiveIndex = Number(lastActiveIndexString);
     const [activeIndex, setActiveIndex] = useState(lastActiveIndex || defaultActive);
